@@ -1,45 +1,46 @@
-  #eye {
+#eye {
   transform: none;
   animation: eye 3s linear infinite;
-  }
+    }
 
-  #left-ear {
+#left-ear {
   transition: all .5s linear;
   transform: translateY(0);
-  }
+}
 
   #right-ear {
   transition: all .5s linear;
-  transform: translateY(0px);
-  }
+  transform: translateY(0);
+}
 
-  #bear:hover #left-ear {
+#bear:hover #left-ear {
   transform: translateY(-10px);
 }
 
-  #bear:hover #right-ear {
+#bear:hover #right-ear {
   transform: translateY(-10px);
 }
 
 @keyframes eye {
 
   0% {
-  transform: translateX(0);
+    transform: translateX(0);
   }
 
   25% {
-  transform: translateX(10px);
+    transform: translateX(10px);
   }
 
   50% {
-  transform: translateX(0px);
+    transform: translateX(0);
   }
 
-  75% {  transform: translateX(-10px);
+  75% {
+    transform: translateX(-10px);
   }
 
   100% {
-  transform: translateX(0px);
+  transform: translateX(0);
   }
 
 }
