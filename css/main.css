@@ -4,35 +4,34 @@
   }
 
   #left-ear {
-    transition: all .5s linear;
-    transform: translateY(-10px);
+  transition: all .5s linear;
+  transform: translateY(-10px);
   }
 
   #right-ear {
-    transition: all .5s linear;
-    transform: translateY(-10px);
+  transition: all .5s linear;
+  transform: translateY(-10px);
   }
 
 @keyframes eye {
 
   0% {
-    transform: translateX(0);
+  transform: translateX(0);
   }
 
   25% {
-    transform: translateX(10px);
+  transform: translateX(10px);
   }
 
   50% {
-    transform: translateX(0px);
+  transform: translateX(0px);
   }
 
-  75% {
-    transform: translateX(10px);
+  75% {  transform: translateX(10px);
   }
 
   100% {
-    transform: translateX(0px);
+  transform: translateX(0px);
   }
 
 }
