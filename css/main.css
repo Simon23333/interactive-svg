@@ -17,6 +17,10 @@
   transform: translateY(-10px);
 }
 
+  #bear:hover #right-ear {
+  transform: translateY(-10px);
+}
+
 @keyframes eye {
 
   0% {
