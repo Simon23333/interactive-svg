@@ -1,6 +1,16 @@
   #eye {
   transform: none;
-  animation: eye 3s;
+  animation: eye 3s infinite;
+  }
+
+  #left-ear {
+    transition: all .5s linear;
+    transform: translateY(10px);
+  }
+
+  #right-ear {
+    transition: all .5s linear;
+    transform: translateY(10px);
   }
 
 @keyframes eye {
